@@ -1,13 +1,10 @@
-# Desafio Stefanini - Automação com Cypress 11, BDD e POM
+# Automação com Cypress do Service Now - Raízen
 
-##### Automação utilizando Cypress 11 seguindo abordagem BDD com Cucumber e padrão POM (Page Object Model) em resposta ao desafio técnico da Stefanini Group.
+#### Automação utilizando Cypress 11 seguindo abordagem BDD com Cucumber e padrão POM (Page Object Model) para squad Service Now (Snow)
 
 ## Explicações sobre projeto e objetivos 
 - Instalação, execução de testes no browser e CLI, geração de reports automatizados e explicação sobre código e abordagens 
 - Report da execução dos testes está disponivel em *reports/cucumber-htmlreport.html/index.html*
-- [Clique para assistir o vídeo explicação](https://youtu.be/cVNtG190ZwI)
-[![Assista o vídeo no Youtube](https://user-images.githubusercontent.com/40446104/203107589-d0171fa6-f4a8-45e7-9a38-770cbc4c1bc7.png)](https://youtu.be/cVNtG190ZwI)
-
 
 ## 🔧 Funcionalidades
 - Automação de testes utilizando Cucumber e POM (Page Object Model)
@@ -24,8 +21,7 @@
 
 1. Clone o repositório via terminal
    ```sh
-   git clone https://github.com/marcosdgomes/stefanini-challenge
-   ```
+   git clone https://github.com/marcosdgomes/snow-cypress-ptbr
 3. Instale as dependências e pacotes NPM
    ```sh
    npm install
