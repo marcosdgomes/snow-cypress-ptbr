@@ -1,0 +1,33 @@
+{
+  "name": "snow-cypress-ptbr",
+  "version": "1.0.0",
+  "description": "Automação com Cypress e BDD em português",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress run ",
+    "postcypress:run": "node ./cypress/support/multiple-cucumber-html-reporter.js"
+  },
+  "author": "Marcos Delano",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^11.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "eslint": "^8.31.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  },
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^3.0.2"
+  }
+}
