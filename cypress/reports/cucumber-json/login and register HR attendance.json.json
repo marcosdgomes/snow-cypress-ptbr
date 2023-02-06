@@ -22,7 +22,7 @@
             "name": "usuário visita a página inicial do portal de serviços",
             "result": {
               "status": "passed",
-              "duration": 7376000000
+              "duration": 9628000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "página de login deve ser exibida",
             "result": {
               "status": "failed",
-              "duration": 4405000000,
+              "duration": 4022000000,
               "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Entrar' to include 'Sign In'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:18:24)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:10:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           }
@@ -53,7 +53,7 @@
             "name": "usuário visita a página inicial do portal de serviços",
             "result": {
               "status": "passed",
-              "duration": 2072000000
+              "duration": 1755000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "usuário insere login e senha e clica em Sign In",
             "result": {
               "status": "passed",
-              "duration": 8160000000
+              "duration": 10418000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "usuário visita a página inicial do portal de serviços",
             "result": {
               "status": "passed",
-              "duration": 7689000000
+              "duration": 14912000000
             }
           },
           {
@@ -102,8 +102,8 @@
             "line": 14,
             "name": "usuário clica em 'Serviços de RH', seleciona tipo 'Abrir um Chamado Classificado', selecione subcategoria 'Admissão Compass' preenche todos os campos e submete",
             "result": {
-              "status": "passed",
-              "duration": 40140000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#sp_formfield_hr_email`, but never found it.\n    at servicePortal_Pages.typeFullRegisterAttendance (cypress/pages/ServicePortal_Page.js:35:9)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:22:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -112,8 +112,7 @@
             "line": 15,
             "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
             "result": {
-              "status": "passed",
-              "duration": 9000000
+              "status": "skipped"
             }
           }
         ]
@@ -133,7 +132,7 @@
             "name": "usuário visita a página inicial do portal de serviços",
             "result": {
               "status": "passed",
-              "duration": 2531000000
+              "duration": 8290000000
             }
           },
           {
@@ -171,7 +170,7 @@
             "name": "usuário visita a página inicial do portal de serviços",
             "result": {
               "status": "passed",
-              "duration": 2768000000
+              "duration": 4504000000
             }
           },
           {
