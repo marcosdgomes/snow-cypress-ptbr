@@ -15,12 +15,12 @@ When("usuário insere login e senha e clica em Sign In", (loginSubmit) => {
 });
 
 Then("página inicial do Portal de Serviços deve ser apresentada", (verifyPageTitleSP) => {
-    servicePortal_Pages.verifyPageTitle(verifyPageTitleSP)
+    servicePortal_Pages.verifyFormPageTitle(verifyPageTitleSP)
 });
 
 When("usuário clica em 'Serviços de RH', seleciona tipo 'Abrir um Chamado Classificado', selecione subcategoria 'Admissão Compass' preenche todos os campos e submete", (registerFullAttendance, clickSubmit) => {
     servicePortal_Pages.typeFullRegisterAttendance(registerFullAttendance);
-    cy.wait(900)
+    cy.wait(10000)
     servicePortal_Pages.submitForm(clickSubmit);
     cy.wait(10000);
     cy.reload()

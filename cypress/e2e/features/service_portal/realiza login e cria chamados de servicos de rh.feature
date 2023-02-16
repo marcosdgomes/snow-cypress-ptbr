@@ -1,5 +1,5 @@
 #language: pt
-Funcionalidade: Login and register attendance
+Funcionalidade: Realiza login e cria chamados de serviços de rh
 
     Contexto:
         Dado usuário visita a página inicial do portal de serviços

@@ -11,11 +11,11 @@ const elem = require('./ServicePortal_Elements');
 class servicePortal_Pages{
 
     visitBaseUrl() {
-      cy.visit('/sp')
+      cy.visit('/sp');
     }
   
     verifyPageTitle() {
-      return cy.title().should('contains', elem.ELEMENTS.PAGETITLE);
+      cy.title().should('contains', elem.ELEMENTS.PAGETITLE);
     }
 
     verifyFormPageTitle() {
@@ -23,46 +23,54 @@ class servicePortal_Pages{
     }
     // Realiza login
     typeLogin(){
-      cy.get('#userNameInput').click()
+      cy.get(elem.ELEMENTS.USERNAMEINPUT).click()
       .type(elem.ELEMENTS.USERNAMELOGIN);
-      cy.get('#passwordInput').click()
+      cy.get(elem.ELEMENTS.PASSWORDINPUT).click()
       .type(elem.ELEMENTS.PASSWORDLOGIN);
       cy.get(elem.ELEMENTS.LOGINBUTTON).click()
     }
     // Seleciona tipo Registrar Atendimento, seleciona Admissão Compass e preenche todos os campos com dados aleatórios
     typeFullRegisterAttendance(){
-      cy.contains('b', 'Serviços de RH').should('be.visible').click().wait(4000);
-      cy.get('#sp_formfield_hr_email').click().type(randomEmail);
-      cy.get('#sp_formfield_hr_contact_phone').type(randomPhone);
-      cy.get('#select2-chosen-1').click();
-      cy.get('#s2id_autogen1_search').click().type('Abrir um Chamado Classificado').type('{enter}');
-      cy.get('#s2id_sp_formfield_u_category > .select2-choice').click();
-      cy.get('#s2id_autogen12_search').click().type('Admissão').wait(500).tab();
-      cy.get('#s2id_sp_formfield_u_subcategory > .select2-choice > .select2-arrow > b').click();
-      cy.get('#s2id_autogen13_search').click().type('Admissão Compass').wait(500).tab();
-      cy.get('#s2id_sp_formfield_u_production_unit > .select2-choice').click();
-      cy.get('#s2id_autogen30_search').click().type('Barra Filial CSC').wait(500).type('{enter}');
-      cy.get('#startDate').click().tab();
-      cy.get(':nth-child(9) > .form-group > .form-control').click().type(randomPhone);
-      cy.get(':nth-child(10) > .form-group > .form-control').click().type(randomName);
-      cy.get(':nth-child(11) > .form-group > .form-control').click().type('Stefanini Brasil');
-      cy.get(':nth-child(12) > .form-group > .form-control').click().type('Requisição de testes');
-      cy.get(':nth-child(13) > .form-group > .form-control').click().type('Mid-level QA Analyst');
-      cy.get(':nth-child(14) > .form-group > .form-control').click().type(randomEmail);
-      cy.get(':nth-child(16) > .form-group > .form-control').click().type(randomPassword);
-      cy.get('#sp_formfield_subject').click().type('Automated Subject Test').tab().type(elem.ELEMENTS.LOREMDESCRIPTION);
-      cy.get(':nth-child(2) > .col-sm-6 > .form-control').select('Sim');
-      cy.get(':nth-child(3) > .col-sm-6 > .form-control').select('Não');
-      cy.get(':nth-child(4) > .col-sm-6 > .form-control').select('Sim');
-      cy.get(':nth-child(5) > .col-sm-6 > .form-control').select('Não');
-      cy.get(':nth-child(6) > .col-sm-6 > .form-control').select('20%');
-      cy.get(':nth-child(7) > .col-sm-6 > .form-control').select('11 Admissão Futura');
+      cy.contains('b', 'Serviços de RH').should('be.visible').click();
+      cy.contains('h4', 'Solicitar Algo').should('be.visible').click();
+      cy.wait(4000);
+      cy.get(elem.ELEMENTS.FORMRHEMAIL).click().type(randomEmail);
+      cy.get(elem.ELEMENTS.FORMRHTELEFONE).type(randomPhone);
+      cy.get(elem.ELEMENTS.FORMRHTIPO).click()
+      cy.get(elem.ELEMENTS.FORMRHTIPOPESQUISA).type('Abrir um Chamado Classificado').type('{enter}');
+      cy.get(elem.ELEMENTS.FORMRHCATEGORY).click();
+      cy.get(elem.ELEMENTS.FORMRHCATEGORYSEARCH).click().type('Admissão').wait(800).type('{enter}');
+      cy.get(elem.ELEMENTS.FORMRHSUBCATEGORY).click();
+      cy.get(elem.ELEMENTS.FORMRHSUBCATEGORYSEARCH).click().type('Admissão Compass').wait(800).type('{enter}');
+      cy.get(elem.ELEMENTS.FORMRHPRODUCTIONUNIT).click();
+      cy.get(elem.ELEMENTS.FORMRHPRODUCTIONUNITSEARCH).type('Barra Filial CSC').wait(800).type('{enter}');
+      cy.get('#startDate').click();
+      cy.get(elem.ELEMENTS.ADMISSIONESTAG).select('Sim');
+      cy.get(elem.ELEMENTS.ADMISSIONPERIC).select('Não');
+      cy.get(elem.ELEMENTS.ADMISSIONPCD).select('Sim');
+      cy.get(elem.ELEMENTS.ADMISSIONPOSIC).select('Não');
+      cy.get(elem.ELEMENTS.ADMISSIONINSAL).select('20%');
+      cy.get(elem.ELEMENTS.ADMISSIONPEND).select('11 Admissão Futura');
+      cy.get(elem.ELEMENTS.ADMISSIONFINPROC).select('Substituição por outra CONPS');
+      cy.get(elem.ELEMENTS.ADMISSIONCEL).click().type(randomPhone);
+      cy.get(elem.ELEMENTS.ADMISSIONCAND).click().type(randomName);
+      cy.get(elem.ELEMENTS.ADMISSIONGEST).click().type('Stefanini Brasil');
+      cy.get(elem.ELEMENTS.ADMISSIONREQ).click().type('Requisição de testes');
+      cy.get(elem.ELEMENTS.ADMISSIONCARG).click().type('Mid-level QA Analyst');
+      cy.get(elem.ELEMENTS.ADMISSIONEMAIL).click().type(randomEmail);
+      cy.get(elem.ELEMENTS.ADMISSIONCONPS).click().type(randomPassword);
+      cy.get(elem.ELEMENTS.FORMRHASSUNTO).click().type('Automated Subject Test').tab().type(elem.ELEMENTS.LOREMDESCRIPTION);
+      cy.contains('Solte seus arquivos aqui ou clique para fazer o upload').selectFile('cypress/fixtures/data.json');
     }
 
-    typeTicket(){
-      
+    openSimpleTicket(){
+      cy.contains('b', 'Serviços de RH').should('be.visible').click().wait(4000);
+      cy.get(elem.ELEMENTS.FORMRHEMAIL).click().type(randomEmail);
+      cy.get(elem.ELEMENTS.FORMRHTELEFONE).type(randomPhone);
+      cy.get(elem.ELEMENTS.FORMRHTIPO).click();
+      cy.get(elem.ELEMENTS.FORMRHTIPOPESQUISA).click().type('Abrir um Chamado Simples').type('{enter}');
     }
-  
+
     typePassword(){
       cy.get(elem.ELEMENTS.PASSWORDINPUT).click()
       .type(elem.ELEMENTS.PASSWORDLOGIN);
@@ -81,3 +89,4 @@ class servicePortal_Pages{
   
   export default new servicePortal_Pages();
 
+  

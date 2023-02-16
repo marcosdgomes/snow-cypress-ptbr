@@ -1,0 +1,159 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Login and register attendance",
+    "line": 2,
+    "id": "login-and-register-attendance",
+    "tags": [],
+    "uri": "realiza login e cria chamados.feature",
+    "elements": [
+      {
+        "id": "login-and-register-attendance;acessa-site-e-valida-conteúdo-carregado",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Acessa site e valida conteúdo carregado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "passed",
+              "duration": 7091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 6,
+            "name": "página de login deve ser exibida",
+            "result": {
+              "status": "failed",
+              "duration": 4027000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Entrar' to include 'Portal de Serviço - Portal de Serviço'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:18:17)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados.js:10:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-and-register-attendance;usuário-insere-credenciais-de-login-corretos",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "usuário insere credenciais de login corretos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "usuário insere login e senha e clica em Sign In",
+            "result": {
+              "status": "passed",
+              "duration": 7769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "página inicial do Portal de Serviços deve ser apresentada",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-and-register-attendance;usuário-abre-formulário-de-serviços-de-rh-e-registra-atendimento-(admissão-compass)",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "usuário abre formulário de serviços de RH e registra atendimento (Admissão Compass)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "usuário clica em 'Serviços de RH', seleciona tipo 'Abrir um Chamado Classificado', selecione subcategoria 'Admissão Compass' preenche todos os campos e submete",
+            "result": {
+              "status": "passed",
+              "duration": 51200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-and-register-attendance;usuário-abre-formulário-de-serviços-de-rh-e-abre-chamado-rápido",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "usuário abre formulário de serviços de RH e abre chamado rápido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 17,
+            "name": "usuário clica em 'Serviços de RH' seleciona tipo 'Abrir chamado' e preenche todos os campos e submete",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 18,
+            "name": "a página de Acompanhamento do chamada é exibida",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-and-register-attendance;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

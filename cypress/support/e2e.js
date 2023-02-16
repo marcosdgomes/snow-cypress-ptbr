@@ -19,3 +19,15 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 require('cypress-plugin-tab')
+
+
+// Limpa os cookies, armazenamento local e cache antes de cada teste
+beforeEach(() => {
+    cy.clearCookies();
+    cy.clearLocalStorage();
+    cy.window().then((win) => {
+      win.sessionStorage.clear();
+    });
+    cy.reload()
+  });
+  
