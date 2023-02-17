@@ -18,6 +18,14 @@ Then("página inicial do Portal de Serviços deve ser apresentada", (verifyPageT
     servicePortal_Pages.verifyFormPageTitle(verifyPageTitleSP)
 });
 
+When('usuário visita página inicial e clica no {string} disponível no Acesso Rápido', (sistemaAcesso) => {
+    cy.contains(sistemaAcesso).parents('.card-item').find('.categories-item-link a').click()
+});
+
+  Then('página do {string} deverá ser apresentada', (sistemaAcesso) => {
+    cy.get('#search').should('contain.text', sistemaAcesso);
+  });
+
 When("usuário clica em 'Serviços de RH', seleciona tipo 'Abrir um Chamado Classificado', selecione subcategoria 'Admissão Compass' preenche todos os campos e submete", (registerFullAttendance, clickSubmit) => {
     servicePortal_Pages.typeFullRegisterAttendance(registerFullAttendance);
     cy.wait(10000)

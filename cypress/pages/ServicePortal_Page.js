@@ -15,7 +15,7 @@ class servicePortal_Pages{
     }
   
     verifyPageTitle() {
-      cy.title().should('contains', elem.ELEMENTS.PAGETITLE);
+      cy.contains('Bem vindo! Digite LOGIN em seguida a senha').should('be.visible');
     }
 
     verifyFormPageTitle() {
