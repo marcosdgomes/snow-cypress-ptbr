@@ -11,17 +11,17 @@ Funcionalidade: Realiza login e cria chamados de serviços de rh
         Então página inicial do Portal de Serviços deve ser apresentada
 
     Esquema do Cenário: usuário visita página inicial e clica em plataforma do 'Acesso Rápido'
-        Quando usuário visita página inicial e clica no "<sistema>" disponível no Acesso Rápido
-        Então página do "<sistema>" deverá ser apresentada
+        Quando usuário visita página inicial e visualiza a seção Acesso Rápido e o "<sistema>" e "<url>"
+        Então "<sistema>" e link com "<url>" deverão ser apresentados
     Exemplos:
-        | sistema |
-        | Universidade Raízen |
-        | Netlex |
-        | Autoatendimento |
-        | Citrix |
-        | Portal RH |
-        | SAP Concur |
-        | WorkSpace |
+        | sistema | url |
+        | Universidade Raízen | http://universidade.raizen.com/  |
+        | Netlex | https://hom-raizen.netlex.com.br/nl-app/login |
+        | Autoatendimento | https://novoautoatendimentocsc.minhati.com.br |
+        | Citrix | https://mf.cosan.com.br/logon/LogonPoint/tmindex.html  |
+        | Portal RH | https://portalrh.raizen.com/ |
+        | SAP Concur | https://eu1.concursolutions.com/home.asp |
+        | WorkSpace | https://csc-hub.deskbee.app/ |
     
 
     Cenário: usuário clica no botão 'Serviços de RH' e acessa outros sistemas
@@ -59,7 +59,32 @@ Funcionalidade: Realiza login e cria chamados de serviços de rh
         | Value 1  | Value 2  | Value 3  |
 
 
-    Cenário: usuário abre 'Meus chamados' e realiza filtragem por status
+    Esquema do Cenário: usuário abre 'Meus chamados' e realiza filtragem por status
         Quando usuário clica em 'Meus chamados' e insere um 'status' de filtragem
         Então devem ser apresentados dados que estejam com o 'status'
-    |  |
+    Exemplos:
+        | status | ativo |
+        | Aberto | empty |
+        | Novo(a) | not empty |
+        | Em aprovação |  |
+        | Em espera |  |
+        | Em andamento |  |
+        | Resolvido |  |
+        | Fechado |  |
+        | Encerrado Totalmente |  |
+        | Encerrado Incompleto |  |
+        | Cancelado |  |
+
+
+    Esquema do Cenário: usuário visita página inicial e clica em plataforma do 'Acesso Rápido'
+        Quando usuário visita página inicial e clica no "<sistema>" disponível no Acesso Rápido
+        Então "<sistema>" deverá ser apresentada
+    Exemplos:
+        | sistema | url |
+        | Universidade Raízen | http://universidade.raizen.com/ |
+        | Netlex | https://hom-raizen.netlex.com.br/nl-app/login |
+        | Autoatendimento | https://novoautoatendimentocsc.minhati.com.br |
+        | Citrix | https://mf.cosan.com.br/logon/LogonPoint/tmindex.html  |
+        | Portal RH | https://portalrh.raizen.com/ |
+        | SAP Concur | https://eu1.concursolutions.com/home.asp |
+        | WorkSpace | https://csc-hub.deskbee.app/ |
