@@ -1,0 +1,782 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Login e dashboard inicial",
+    "line": 2,
+    "id": "login-e-dashboard-inicial",
+    "tags": [],
+    "uri": "login_e_dashboard.feature",
+    "elements": [
+      {
+        "id": "login-e-dashboard-inicial;tentar-realizar-login-com-informações-incorretas",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Tentar realizar login com informações incorretas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que eu cliquei no sistema \"wronguser\" e a senha \"123\"",
+            "result": {
+              "status": "passed",
+              "duration": 2287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "aciono o botão Login",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "eu vejo a mensagem de erro",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;tentar-realizar-login-com-informações-incorretas",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Tentar realizar login com informações incorretas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que eu cliquei no sistema \"tr98455\" e a senha \"password12\"",
+            "result": {
+              "status": "passed",
+              "duration": 1182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "aciono o botão Login",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "eu vejo a mensagem de erro",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;tentar-realizar-login-com-informações-incorretas",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Tentar realizar login com informações incorretas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que eu cliquei no sistema \"usercorreto\" e a senha \"senhacorreta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "aciono o botão Login",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "eu vejo a mensagem de erro",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visualiza-e-clica-em-elementos-do-dashboard",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Usuário visualiza e clica em elementos do dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 15,
+            "name": "que o usuário esteja no dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 16,
+            "name": "usuário clica nos botões visiveis em tela",
+            "result": {
+              "status": "passed",
+              "duration": 3247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 17,
+            "name": "ações devem ser executadas e elementos devem estar presentes em tela",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Serviços de RH\" com \"b\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1752000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 949000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Serviços de TI\" com \"b\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 915000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Reportar problema\" com \"b\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1873000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Reportar problema\" com \"b\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1766000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Itens recentes\" com \"b\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1768000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Meus Chamados\" com \"b\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1320000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Acesso Rápido\" com \"b\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1667000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Minhas Aprovações\" com \"span\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1624000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Meus Chamados\" com \"span\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1612000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;acessa-dashboard,-valida-textos-e-imagens-carregadas",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Acessa dashboard, valida textos e imagens carregadas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "\"Olá,\" com \"span\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 1530000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "usuário visita página inicial e visualiza a seção Acesso Rápido e o \"Universidade Raízen\" e \"http://universidade.raizen.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "\"Universidade Raízen\" e link com \"http://universidade.raizen.com/\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "usuário visita página inicial e visualiza a seção Acesso Rápido e o \"Netlex\" e \"https://hom-raizen.netlex.com.br/nl-app/login\"",
+            "result": {
+              "status": "passed",
+              "duration": 2263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "\"Netlex\" e link com \"https://hom-raizen.netlex.com.br/nl-app/login\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "usuário visita página inicial e visualiza a seção Acesso Rápido e o \"Autoatendimento\" e \"https://novoautoatendimentocsc.minhati.com.br\"",
+            "result": {
+              "status": "passed",
+              "duration": 2308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "\"Autoatendimento\" e link com \"https://novoautoatendimentocsc.minhati.com.br\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "usuário visita página inicial e visualiza a seção Acesso Rápido e o \"Citrix\" e \"https://mf.cosan.com.br/logon/LogonPoint/tmindex.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 2656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "\"Citrix\" e link com \"https://mf.cosan.com.br/logon/LogonPoint/tmindex.html\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "usuário visita página inicial e visualiza a seção Acesso Rápido e o \"Portal RH\" e \"https://portalrh.raizen.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "\"Portal RH\" e link com \"https://portalrh.raizen.com/\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "usuário visita página inicial e visualiza a seção Acesso Rápido e o \"SAP Concur\" e \"https://eu1.concursolutions.com/home.asp\"",
+            "result": {
+              "status": "passed",
+              "duration": 2376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "\"SAP Concur\" e link com \"https://eu1.concursolutions.com/home.asp\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-e-dashboard-inicial;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "usuário visita página inicial e visualiza a seção Acesso Rápido e o \"WorkSpace\" e \"https://csc-hub.deskbee.app/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "\"WorkSpace\" e link com \"https://csc-hub.deskbee.app/\" deverão ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

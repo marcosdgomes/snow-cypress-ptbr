@@ -1,0 +1,917 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Realiza login e cria chamados de serviços de rh",
+    "line": 2,
+    "id": "realiza-login-e-cria-chamados-de-serviços-de-rh",
+    "tags": [],
+    "uri": "abertura_chamados_servicos_rh.feature",
+    "elements": [
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;acessa-site-e-valida-conteúdo-carregado",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Acessa site e valida conteúdo carregado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "carregamento da página inicial é finalizado",
+            "result": {
+              "status": "passed",
+              "duration": 1532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 8,
+            "name": "página inicial deve ser apresentada",
+            "result": {
+              "status": "passed",
+              "duration": 991000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-diferentes-tipos-de-chamado-classificado",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Usuário abre diferentes tipos de Chamado Classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "esteja no formulário de serviços de RH",
+            "result": {
+              "status": "passed",
+              "duration": 961000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "inserir \"Admissão\", \"Admissão Compass\", \"Barra Filial CSC\" e \"<Grupo solucionador>\"",
+            "result": {
+              "status": "passed",
+              "duration": 11935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "preencher todos os campos string e submeter",
+            "result": {
+              "status": "passed",
+              "duration": 3298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
+            "result": {
+              "status": "passed",
+              "duration": 4159000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-diferentes-tipos-de-chamado-classificado",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Usuário abre diferentes tipos de Chamado Classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "esteja no formulário de serviços de RH",
+            "result": {
+              "status": "passed",
+              "duration": 763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "inserir \"Admissão\", \"Admissão Compass\", \"COSAN MATRIZ\" e \"<Grupo solucionador>\"",
+            "result": {
+              "status": "passed",
+              "duration": 12104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "preencher todos os campos string e submeter",
+            "result": {
+              "status": "passed",
+              "duration": 3169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
+            "result": {
+              "status": "passed",
+              "duration": 2917000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-diferentes-tipos-de-chamado-classificado",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Usuário abre diferentes tipos de Chamado Classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 480000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "esteja no formulário de serviços de RH",
+            "result": {
+              "status": "passed",
+              "duration": 1021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "inserir \"Adm. Pessoal\", \"Suspensão / Advertência\", \"Comgás\" e \"<Grupo solucionador>\"",
+            "result": {
+              "status": "passed",
+              "duration": 12071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "preencher todos os campos string e submeter",
+            "result": {
+              "status": "passed",
+              "duration": 1414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
+            "result": {
+              "status": "passed",
+              "duration": 3669000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-diferentes-tipos-de-chamado-classificado",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Usuário abre diferentes tipos de Chamado Classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "esteja no formulário de serviços de RH",
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "inserir \"Adm. Pessoal - Folha de Pagamento\", \"Dúvidas - Folha de Pagamento\", \"Compass\" e \"<Grupo solucionador>\"",
+            "result": {
+              "status": "passed",
+              "duration": 12802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "preencher todos os campos string e submeter",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 12000ms: Expected to find element: `[data-cy=\"string\"]`, but never found it.\n    at servicePortal_Pages.typeFullStrings (cypress/e2e/pages/ServicePortal_Page.js:247:7)\n    at Context.eval (cypress/e2e/step_definitions/abertura_chamados_servicos_rh.js:78:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-diferentes-tipos-de-chamado-classificado",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Usuário abre diferentes tipos de Chamado Classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "esteja no formulário de serviços de RH",
+            "result": {
+              "status": "passed",
+              "duration": 1478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 12,
+            "name": "inserir \"Benefícios\", \"Alteração de Benefícios\", \"Raízen Rio de Janeiro\" e \"<Grupo solucionador>\"",
+            "result": {
+              "status": "passed",
+              "duration": 12192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "preencher todos os campos string e submeter",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 12000ms: Expected to find element: `[data-cy=\"string\"]`, but never found it.\n    at servicePortal_Pages.typeFullStrings (cypress/e2e/pages/ServicePortal_Page.js:247:7)\n    at Context.eval (cypress/e2e/step_definitions/abertura_chamados_servicos_rh.js:78:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-formulário-de-serviços-de-rh-e-abre-chamado-rápido",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Usuário abre formulário de serviços de RH e abre chamado rápido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 25,
+            "name": "usuário clica em 'Solicitar Algo' no 'Serviços de RH'",
+            "result": {
+              "status": "passed",
+              "duration": 779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 26,
+            "name": "seleciona tipo 'Abrir chamado rápido' preenche todos os campos e submete",
+            "result": {
+              "status": "passed",
+              "duration": 7172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "a página de Acompanhamento do chamado é exibida",
+            "result": {
+              "status": "passed",
+              "duration": 2935000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-botão-'serviços-de-rh'-e-acessa-outros-sistemas",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Usuário clica no botão 'Serviços de RH' e acessa outros sistemas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 30,
+            "name": "usuário clica em \"<sistema>\" disponibilizado na seção 'Acessar outros sistemas'",
+            "result": {
+              "status": "passed",
+              "duration": 3593000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "sistema",
+                      "url"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Férias",
+                      "https://portalrh.minhati.com.br/Ferias/programacao/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Reembolso",
+                      "http://portalreembolso.raizen.com/Pages/Default.aspx"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Atração e Seleção",
+                      "https://genteraizen.gupy.io/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Holerite",
+                      "http://intranet2.raizen.com/PortalRH/PaginasSite/NovoHolerite/holerite.aspx?guid=327dcbef-a635-4ea1-b264-a6bf1b2b30b6&paramsSPPropertyBag=CS342326;CS342326#no-back-button"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Treinamento",
+                      "https://raizen.csod.com/ui/lms-learner-home/home?tab_page_id=-200300006&tab_id=-2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Workflow RH",
+                      "https://workflowrh.raizen.com/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Gestão de Desempenho",
+                      "https://ciclogestaogente.raizen.com/"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Portal do Gestor",
+                      "https://portalrh.minhati.com.br/Desligamento/Erro/AcessoNegado"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Informe de Rendimentos",
+                      "http://informerendimentos.raizen.com/Pages/Login.aspx"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Controle de Ponto",
+                      "http://intranet2.raizen.com/PortalRH/PontoPorExcecao/default.aspx"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Estrutura Organizacional",
+                      "https://portalrh.minhati.com.br/estruturaorganizacional/"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Então ",
+            "line": 31,
+            "name": "link \"<url>\" do \"<sistema>\" deverá ser apresentado",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Serviços de RH\", \"Solicitar Algo\" e \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=7b72d4091bfdd110edbd87bfe54bcb40&sysparm_category=d17103081bbb0590edbd87bfe54bcb97&catalog_id=08ba31521b7fcd90f61c0dcbe54bcbfc\"",
+            "result": {
+              "status": "passed",
+              "duration": 3217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=7b72d4091bfdd110edbd87bfe54bcb40&sysparm_category=d17103081bbb0590edbd87bfe54bcb97&catalog_id=08ba31521b7fcd90f61c0dcbe54bcbfc\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Serviços de TI\", \"Requisições Servicenow - Alpar\" e \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=01fe9985dbfe4490d0fecf241496195c&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\"",
+            "result": {
+              "status": "passed",
+              "duration": 9304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=01fe9985dbfe4490d0fecf241496195c&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Serviços de TI\", \"Alterar Modelos de Mudança\" e \"https://raizendev.service-now.com/sp?id=modify_change_template\"",
+            "result": {
+              "status": "passed",
+              "duration": 8970000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=modify_change_template\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Serviços de TI\", \"Sistema Corporativos\" e \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=507099091b04ad50edbd87bfe54bcb60&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\"",
+            "result": {
+              "status": "passed",
+              "duration": 10321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=507099091b04ad50edbd87bfe54bcb60&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Serviços de TI\", \"Sistemas e Aplicações\" e \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=6b2ffae9dbeffb005b43b11ba396190b&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\"",
+            "result": {
+              "status": "passed",
+              "duration": 8136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=6b2ffae9dbeffb005b43b11ba396190b&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Serviços de TI\", \"Equipamentos e Telefonia\" e \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=98d28d7a1bc08990edbd87bfe54bcb2d&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\"",
+            "result": {
+              "status": "passed",
+              "duration": 10037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=98d28d7a1bc08990edbd87bfe54bcb2d&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Serviços de TI\", \"Tecnologia Operacional Agrícola\" e \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=6574893e1bc08990edbd87bfe54bcb85&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\"",
+            "result": {
+              "status": "passed",
+              "duration": 15191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_category&sys_id=6574893e1bc08990edbd87bfe54bcb85&sysparm_category=340e09f3dba1f30017a25c4bf396191f&catalog_id=e0d08b13c3330100c8b837659bba8fb4\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Reportar problema\", \"Incidentes Servicenow - Alpar\" e \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=882f3685db768490d0fecf24149619e0&sysparm_category=bf4ec9f3dba1f30017a25c4bf3961978&catalog_id=-1\"",
+            "result": {
+              "status": "passed",
+              "duration": 12252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=882f3685db768490d0fecf24149619e0&sysparm_category=bf4ec9f3dba1f30017a25c4bf3961978&catalog_id=-1\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-tipo-de-serviço-desejado-e-seleciona-formulário-de-solicitação",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Usuário clica no tipo de serviço desejado e seleciona formulário de solicitação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "usuário seleciona \"Reportar problema\", \"Segurança da Informação\" e \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=b7502e471baf8d50f61c0dcbe54bcb98&sysparm_category=bf4ec9f3dba1f30017a25c4bf3961978&catalog_id=-1\"",
+            "result": {
+              "status": "passed",
+              "duration": 12624000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 47,
+            "name": "formulário e URL \"https://raizendev.service-now.com/sp?id=sc_cat_item&sys_id=b7502e471baf8d50f61c0dcbe54bcb98&sysparm_category=bf4ec9f3dba1f30017a25c4bf3961978&catalog_id=-1\" devem ser apresentados",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-formulário-de-serviços-de-rh-e-registra-atendimento-(admissão-compass)",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Usuário abre formulário de serviços de RH e registra atendimento (Admissão Compass)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 61,
+            "name": "usuário clica em 'Serviços de RH', seleciona tipo 'Abrir um Chamado Classificado', seleciona subcategoria 'Admissão Compass' preenche todos os campos e submete",
+            "result": {
+              "status": "passed",
+              "duration": 26676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 62,
+            "name": "deve ser exibida página de 'Acompanhamento do Chamado'",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 12000ms: Expected to find content: 'Acompanhamento do Chamado' within the selector: 'span' but never did.\n    at servicePortal_Pages.verifySTFCallForm (cypress/e2e/pages/ServicePortal_Page.js:258:53)\n    at Context.eval (cypress/e2e/step_definitions/abertura_chamados_servicos_rh.js:66:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

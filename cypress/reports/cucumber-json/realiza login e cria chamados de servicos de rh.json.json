@@ -19,18 +19,18 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "duration": 62000000,
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "duration": 190000000,
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
             "arguments": [],
             "keyword": "Então ",
             "line": 7,
-            "name": "página de login deve ser exibida",
+            "name": "página inicial deve ser apresentada",
             "result": {
               "status": "skipped"
             }
@@ -49,10 +49,10 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -87,10 +87,10 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -116,7 +116,7 @@
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-formulário-de-serviços-de-rh-e-abre-chamado-rápido",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 17,
         "name": "usuário abre formulário de serviços de RH e abre chamado rápido",
         "tags": [],
         "type": "scenario",
@@ -125,16 +125,16 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 19,
+            "line": 18,
             "name": "usuário clica em 'Serviços de RH' seleciona tipo 'Abrir chamado' e preenche todos os campos e submete",
             "result": {
               "status": "skipped"
@@ -143,7 +143,7 @@
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 20,
+            "line": 19,
             "name": "a página de Acompanhamento do chamada é exibida",
             "result": {
               "status": "skipped"
@@ -154,7 +154,7 @@
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 81,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
         "type": "scenario",
@@ -163,71 +163,254 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 23,
-            "name": "usuário visita página inicial e clica em uma das plataformas disponiveis no 'Acesso Rápido'",
+            "line": 77,
+            "name": "usuário visita página inicial e clica no \"<sistema>\" disponível no Acesso Rápido",
             "result": {
               "status": "skipped"
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "sistema"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Universidade Raízen"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Netlex"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Autoatendimento"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Citrix"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Portal RH"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "SAP Concur"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "WorkSpace"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "Então ",
-            "line": 24,
-            "name": "página do sistema deverá ser apresentada",
+            "line": 78,
+            "name": "\"<sistema>\" deverá ser apresentada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "usuário visita página inicial e clica no \"<sistema>\" disponível no Acesso Rápido",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "\"<sistema>\" deverá ser apresentada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 83,
+        "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "usuário visita página inicial e clica no \"<sistema>\" disponível no Acesso Rápido",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "\"<sistema>\" deverá ser apresentada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "usuário visita página inicial e clica no \"<sistema>\" disponível no Acesso Rápido",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "\"<sistema>\" deverá ser apresentada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "usuário visita página inicial e clica no \"<sistema>\" disponível no Acesso Rápido",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "\"<sistema>\" deverá ser apresentada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 86,
+        "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "usuário visita página inicial e clica no \"<sistema>\" disponível no Acesso Rápido",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "\"<sistema>\" deverá ser apresentada",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "usuário visita página inicial e clica no \"<sistema>\" disponível no Acesso Rápido",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "\"<sistema>\" deverá ser apresentada",
             "result": {
               "status": "skipped"
             }
@@ -237,7 +420,7 @@
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-botão-'serviços-de-rh'-e-acessa-outros-sistemas",
         "keyword": "Scenario",
-        "line": 35,
+        "line": 34,
         "name": "usuário clica no botão 'Serviços de RH' e acessa outros sistemas",
         "tags": [],
         "type": "scenario",
@@ -246,17 +429,17 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 36,
-            "name": "usuário clica em sistema disponibilizado na seção \"Acessar outros sistemas\"",
+            "line": 35,
+            "name": "usuário clica em \"<sistema>\" disponibilizado na seção \"Acessar outros sistemas\"",
             "result": {
               "status": "skipped"
             }
@@ -329,8 +512,8 @@
               }
             ],
             "keyword": "Então ",
-            "line": 37,
-            "name": "sistema deve ser apresentado",
+            "line": 36,
+            "name": "página do \"<sistema>\" deverá ser apresentado",
             "result": {
               "status": "skipped"
             }
@@ -340,7 +523,7 @@
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;tentar-realizar-login-com-informações-incorretas",
         "keyword": "Scenario",
-        "line": 58,
+        "line": 56,
         "name": "Tentar realizar login com informações incorretas",
         "tags": [],
         "type": "scenario",
@@ -349,16 +532,16 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
-            "line": 53,
+            "line": 51,
             "name": "que eu cliquei no sistema \"<usuário>\" e a senha \"<senha>\"",
             "result": {
               "status": "skipped"
@@ -367,7 +550,7 @@
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 54,
+            "line": 52,
             "name": "aciono a opção Login",
             "result": {
               "status": "skipped"
@@ -376,7 +559,7 @@
           {
             "arguments": [],
             "keyword": "Então ",
-            "line": 55,
+            "line": 53,
             "name": "eu vejo a mensagem de erro \"<erro>\"",
             "result": {
               "status": "skipped"
@@ -387,7 +570,7 @@
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
         "keyword": "Scenario",
-        "line": 61,
+        "line": 64,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
         "type": "scenario",
@@ -396,36 +579,455 @@
             "arguments": [],
             "keyword": "Dado ",
             "line": 5,
-            "name": "usuário visita a página inicial do portal de serviços",
+            "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "TypeError: _ServicePortal_Page.default.visitBaseUrl is not a function\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\nFrom previous event:\n    at Context.thenFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139264:63)\n    at Context.then (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:139686:21)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157859:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156587:15)\nFrom previous event:\n    at CommandQueue.runCommand (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156564:8)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156746:16)\nFrom previous event:\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156724:39)\nFrom previous event:\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172185:77)\nFrom previous event:\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:172180:21)\n    at CommandQueue.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:156796:15)\n    at $Cy.runQueue (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157835:14)\n    at cy.<computed> [as then] (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157934:12)\n    at runnable.fn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:158117:19)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108004:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108663:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108789:12)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108572:14)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108582:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108484:14)\n    at Hook.<anonymous> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108545:7)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165349:24)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165378:13)\nFrom previous event:\n    at onNext (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165375:59)\n    at done (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107944:5)\n    at callFn (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108027:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:107991:7)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165458:30)\nFrom previous event:\n    at Object.onRunnableRun (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:165443:53)\n    at $Cypress.action (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:154141:28)\n    at Runnable.run (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:163099:13)\n    at next (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108506:10)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:108550:5)\n    at timeslice (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:102476:27)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
-            "line": 62,
+            "line": 60,
             "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
             "result": {
               "status": "skipped"
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      ""
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "Então ",
-            "line": 63,
+            "line": 61,
             "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 60,
+            "name": "usuário clica em 'Meus chamados' e insere um 'status' de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 61,
+            "name": "devem ser apresentados dados que estejam com o 'status'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;cria-chamado-simples-e-classificado",
+        "keyword": "Scenario",
+        "line": 93,
+        "name": "cria chamado simples e classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 90,
+            "name": "usuário visita formulário serviços de RH e insere \"Abrir Chamado Simples\", \"Abrir Chamado Simples\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;cria-chamado-simples-e-classificado",
+        "keyword": "Scenario",
+        "line": 94,
+        "name": "cria chamado simples e classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 90,
+            "name": "usuário visita formulário serviços de RH e insere \"Abrir Chamado Classificado\", \"Abrir Chamado Classificado\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;cria-chamado-simples-e-classificado",
+        "keyword": "Scenario",
+        "line": 95,
+        "name": "cria chamado simples e classificado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 90,
+            "name": "usuário visita formulário serviços de RH e insere \"Abrir Chamado Classificado\", \"Abrir Chamado Classificado\"",
             "result": {
               "status": "skipped"
             }

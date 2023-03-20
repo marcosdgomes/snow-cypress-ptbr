@@ -1,0 +1,411 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Gerenciamento de chamados e aprovações em aberto (Minhas Aprovações/Meus Chamados)",
+    "line": 2,
+    "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados)",
+    "tags": [],
+    "uri": "gerenciamento_chamados_e_aprovacoes.feature",
+    "elements": [
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);acessa-site-e-valida-conteúdo-carregado",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Acessa site e valida conteúdo carregado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined",
+              "duration": 393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "página de login deve ser exibida",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Aberto\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Aberto\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Novo(a)\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Novo(a)\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Em aprovação\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Em aprovação\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Em espera\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Em espera\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Em andamento\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Em andamento\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Resolvido\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Resolvido\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Fechado\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Fechado\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Encerrado Totalmente\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Encerrado Totalmente\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Encerrado Incompleto\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Encerrado Incompleto\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "usuário visita a página inicial do portal de serviços",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "usuário clica em 'Meus chamados' e insere um \"Cancelado\" de filtragem",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devem ser apresentados dados que estejam com o \"Cancelado\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
