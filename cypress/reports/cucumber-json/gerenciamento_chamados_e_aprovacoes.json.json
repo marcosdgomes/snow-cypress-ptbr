@@ -9,11 +9,11 @@
     "elements": [
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);acessa-site-e-valida-conteúdo-carregado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 6,
         "name": "Acessa site e valida conteúdo carregado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -38,11 +38,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 14,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -75,11 +75,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 15,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -112,11 +112,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 16,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -149,11 +149,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 17,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -186,11 +186,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 18,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -223,11 +223,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 19,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -260,11 +260,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 20,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -297,11 +297,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 21,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -334,11 +334,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 22,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -371,11 +371,11 @@
       },
       {
         "id": "gerenciamento-de-chamados-e-aprovações-em-aberto-(minhas-aprovações/meus-chamados);usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 23,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],

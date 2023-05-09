@@ -9,11 +9,11 @@
     "elements": [
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;acessa-site-e-valida-conteúdo-carregado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 6,
         "name": "Acessa site e valida conteúdo carregado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -33,18 +33,18 @@
             "result": {
               "status": "failed",
               "duration": 4013000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Entrar' to include 'Portal de Serviço - Portal de Serviço'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:19:17)\n    at Context.eval (cypress/e2e/step_definitions/Realiza login e cria chamados de serviços de rh.js:10:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Entrar' to include 'Portal de Serviço - Portal de Serviço'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:19:17)\n    at Context.eval (cypress/e2e/step_definitions/Realiza login e cria chamados de serviços de rh.js:10:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           }
         ]
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-insere-credenciais-de-login-corretos",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 9,
         "name": "usuário insere credenciais de login corretos",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -80,11 +80,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-formulário-de-serviços-de-rh-e-registra-atendimento-(admissão-compass)",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 13,
         "name": "usuário abre formulário de serviços de RH e registra atendimento (Admissão Compass)",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -120,11 +120,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-formulário-de-serviços-de-rh-e-abre-chamado-rápido",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 17,
         "name": "usuário abre formulário de serviços de RH e abre chamado rápido",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -158,11 +158,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 21,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],

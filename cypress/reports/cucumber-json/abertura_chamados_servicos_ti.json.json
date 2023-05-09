@@ -1,0 +1,461 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Realiza login e cria chamados de serviços de ti",
+    "line": 2,
+    "id": "realiza-login-e-cria-chamados-de-serviços-de-ti",
+    "tags": [],
+    "uri": "abertura_chamados_servicos_ti.feature",
+    "elements": [
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-ti;abrir-uma-requisição-no-service-now---alpar",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Abrir uma requisição no Service Now - Alpar",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 15405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "eu seleciono o tipo de formulário 'Requisições Servicenow - Alpar'",
+            "result": {
+              "status": "passed",
+              "duration": 11244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "eu preencho os campos obrigatórios",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "eu clico no botão 'Abrir chamado'",
+            "result": {
+              "status": "undefined",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "eu devo ver uma mensagem de confirmação de abertura do chamado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-ti;alterar-um-modelo-de-mudança",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Alterar um modelo de mudança",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 13,
+            "name": "que estou na tela de abertura de chamados",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 14,
+            "name": "eu seleciono o tipo de formulário \"Alterar Modelos de Mudança\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "eu preencho os campos obrigatórios",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "eu clico no botão \"Abrir chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 17,
+            "name": "eu devo ver uma mensagem de confirmação de abertura do chamado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-ti;abrir-um-chamado-de-sistemas-corporativos",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Abrir um chamado de sistemas corporativos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "que estou na tela de abertura de chamados",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "eu seleciono o tipo de formulário \"Sistemas Corporativos\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 22,
+            "name": "eu preencho os campos obrigatórios",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 23,
+            "name": "eu clico no botão \"Abrir chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 24,
+            "name": "eu devo ver uma mensagem de confirmação de abertura do chamado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-ti;solicitar-acesso-a-um-sistema-ou-aplicação",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Solicitar acesso a um sistema ou aplicação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 27,
+            "name": "que estou na tela de abertura de chamados",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 28,
+            "name": "eu seleciono o tipo de formulário \"Acesso, Sistema e Aplicações\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 29,
+            "name": "eu preencho os campos obrigatórios",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 30,
+            "name": "eu clico no botão \"Abrir chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 31,
+            "name": "eu devo ver uma mensagem de confirmação de abertura do chamado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-ti;abrir-chamado-para-equipamentos",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Abrir chamado para equipamentos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 34,
+            "name": "que estou na tela de abertura de chamados",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 35,
+            "name": "eu seleciono o tipo de formulário \"Equipamentos\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 36,
+            "name": "eu preencho os campos obrigatórios",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 37,
+            "name": "eu clico no botão \"Abrir chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "eu devo ver uma mensagem de confirmação de abertura do chamado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-ti;solicitar-suporte-de-telefonia",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Solicitar suporte de telefonia",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 41,
+            "name": "que estou na tela de abertura de chamados",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 42,
+            "name": "eu seleciono o tipo de formulário \"Telefonia\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 43,
+            "name": "eu preencho os campos obrigatórios",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 44,
+            "name": "eu clico no botão \"Abrir chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 45,
+            "name": "eu devo ver uma mensagem de confirmação de abertura do chamado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "realiza-login-e-cria-chamados-de-serviços-de-ti;solicitar-suporte-de-tecnologia-operacional-agrícola",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Solicitar suporte de tecnologia operacional agrícola",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 48,
+            "name": "que estou na tela de abertura de chamados",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 49,
+            "name": "eu seleciono o tipo de formulário \"Tecnologia Operacional Agrícola\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 50,
+            "name": "eu preencho os campos obrigatórios",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 51,
+            "name": "eu clico no botão \"Abrir chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 52,
+            "name": "eu devo ver uma mensagem de confirmação de abertura do chamado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

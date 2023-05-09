@@ -5,7 +5,7 @@ export const ELEMENTS = {
     PASSWORDINPUT: '#passwordInput',
     SUBMITFORMBUTTON: '.text-right > #submit-btn',
     USERNAMELOGIN: 'TR041328',
-    PASSWORDLOGIN: '45204520@RAIZEN',
+    PASSWORDLOGIN: '45204520@RAIZENCOYOTE',
     LOGINBTN: () => cy.get('#submitButton'),
     LOGINBUTTON: '#submitButton',
     PAGETITLE: 'Portal de Serviço - Portal de Serviço',
@@ -30,7 +30,7 @@ export const ELEMENTS = {
 
     // Elementos formulário serviços de RH - Tipo Abrir um chamado classificado
     FORMRHCATEGORY: '#s2id_sp_formfield_u_category',
-    FORMRHCATEGORYSEARCH: '#s2id_autogen14_search',
+    FORMRHCATEGORYSEARCH: '#s2id_autogen12_search',
     FORMRHSUBCATEGORY: '#s2id_sp_formfield_u_subcategory',
     FORMRHSUBCATEGORYSEARCH: '#s2id_autogen15_search',
     FORMRHPRODUCTIONUNIT: '#s2id_sp_formfield_u_production_unit',

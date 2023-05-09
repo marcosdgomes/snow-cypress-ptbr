@@ -13,19 +13,19 @@ report.generate({
             name: 'Chrome',
             version: '86.0.4240.75'
         },
-        device: 'Local test machine',
+        device: 'PipelineCI',
         platform: {
-            name: 'Windows',
-            version: '10'
+            name: 'Linux',
+            version: 'Ubuntu 18.04'
         }
     },
     customData: {
         title: 'Run info',
         data: [
-            {label: 'Project', value: 'Medium Cypress project'},
+            {label: 'Project', value: 'Automação Conecta - Service Now '},
             {label: 'Release', value: '1.0.1'},
-            {label: 'Execution Start Time', value: 'Nov 19th 2017, 02:31 PM EST'},
-            {label: 'Execution End Time', value: 'Nov 19th 2017, 02:56 PM EST'}
+            {label: 'Execution Start Time', value: 'April 3rd 2023, 02:31 PM EST'},
+            {label: 'Execution End Time', value: 'April 3rd 2023 02:56 PM EST'}
         ]
     }
 });

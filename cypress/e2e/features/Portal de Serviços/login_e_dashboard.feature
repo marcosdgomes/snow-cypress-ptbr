@@ -24,8 +24,7 @@ Funcionalidade: Login e dashboard inicial
         | textos | tipo |
         | Serviços de RH | b |
         | Serviços de TI | b |
-        | Reportar problema | b |
-        | Reportar problema | b |
+        | Reportar Problema | b |
         | Itens recentes | b |    
         | Meus Chamados | b |
         | Acesso Rápido | b |

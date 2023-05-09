@@ -9,11 +9,11 @@
     "elements": [
       {
         "id": "login-and-register-attendance;acessa-site-e-valida-conteúdo-carregado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 6,
         "name": "Acessa site e valida conteúdo carregado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -33,18 +33,18 @@
             "result": {
               "status": "failed",
               "duration": 4013000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Entrar' to include 'Sign In'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:18:17)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:10:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Entrar' to include 'Sign In'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:18:17)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:10:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           }
         ]
       },
       {
         "id": "login-and-register-attendance;usuário-insere-credenciais-de-login-corretos",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 9,
         "name": "usuário insere credenciais de login corretos",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -73,18 +73,18 @@
             "name": "página inicial do Portal de Serviços deve ser apresentada",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Portal de Serviço - Portal de Serviço' to include 'Sign In'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:18:17)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:18:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Portal de Serviço - Portal de Serviço' to include 'Sign In'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:18:17)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:18:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           }
         ]
       },
       {
         "id": "login-and-register-attendance;usuário-abre-formulário-de-serviços-de-rh-e-registra-atendimento-(admissão-compass)",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 13,
         "name": "usuário abre formulário de serviços de RH e registra atendimento (Admissão Compass)",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -103,7 +103,7 @@
             "name": "usuário clica em 'Serviços de RH', seleciona tipo 'Abrir um Chamado Classificado', selecione subcategoria 'Admissão Compass' preenche todos os campos e submete",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: Timed out retrying after 4000ms: `cy.selectFile()` failed because this element is not visible:\n\n`<input type=\"file\" style=\"display: none\" multiple=\"true\" ng-file-select=\"uploadAttachments($files)\" class=\"sp-attachments-input\">`\n\nThis element `<input.sp-attachments-input>` is not visible because it has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n    at runVisibilityCheck (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:147850:76)\n    at $Cy.ensureStrictVisibility (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:147866:12)\n    at runAllChecks (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133546:14)\n    at retryActionability (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133601:16)\nFrom previous event:\n    at whenStable (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:153099:65)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:152508:14)\nFrom previous event:\n    at $Cy.retry (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:152488:76)\n    at retryActionability (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133604:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133608:12)\nFrom previous event:\n    at Object.verify (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133513:61)\n    at Context.selectFile (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:137158:76)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeFullRegisterAttendance (cypress/pages/ServicePortal_Page.js:57:33)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:22:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: Timed out retrying after 4000ms: `cy.selectFile()` failed because this element is not visible:\n\n`<input type=\"file\" style=\"display: none\" multiple=\"true\" ng-file-select=\"uploadAttachments($files)\" class=\"sp-attachments-input\">`\n\nThis element `<input.sp-attachments-input>` is not visible because it has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n    at runVisibilityCheck (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:147850:76)\n    at $Cy.ensureStrictVisibility (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:147866:12)\n    at runAllChecks (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133546:14)\n    at retryActionability (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133601:16)\nFrom previous event:\n    at whenStable (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:153099:65)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:152508:14)\nFrom previous event:\n    at $Cy.retry (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:152488:76)\n    at retryActionability (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133604:19)\n    at <unknown> (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133608:12)\nFrom previous event:\n    at Object.verify (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:133513:61)\n    at Context.selectFile (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:137158:76)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeFullRegisterAttendance (cypress/pages/ServicePortal_Page.js:57:33)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:22:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -119,11 +119,11 @@
       },
       {
         "id": "login-and-register-attendance;usuário-abre-formulário-de-serviços-de-rh-e-abre-chamado-rápido",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 17,
         "name": "usuário abre formulário de serviços de RH e abre chamado rápido",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -157,11 +157,11 @@
       },
       {
         "id": "login-and-register-attendance;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 21,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],

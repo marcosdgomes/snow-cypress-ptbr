@@ -4,7 +4,7 @@
   "description": "Automação com Cypress e BDD em português",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:tags": "cypress run --env TAGS=$(echo \"$npm_config_tags\")",
     "cypress:run": "cypress run ",
     "postcypress:run": "node ./cypress/support/multiple-cucumber-html-reporter.js"
   },

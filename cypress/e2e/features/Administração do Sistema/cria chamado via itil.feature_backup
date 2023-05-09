@@ -1,0 +1,14 @@
+#language: pt
+Funcionalidade: Cria chamado com o tipo de serviço desejado via portal de administração
+    Contexto:
+        Dado que usuário visita a página inicial e realiza login
+    Cenário: Cria chamado com o tipo de serviço desejado via portal de administração
+        E que eu estou na página de criação de chamado
+        E eu seleciono o tipo de serviço "Serviço de TI"
+        E eu preencho o campo "Título" com "Teste de criação de chamado"
+        E eu preencho o campo "Descrição" com "Teste de criação de chamado"
+        E eu preencho o campo "Solicitante" com "Teste de criação de chamado"
+        E eu preencho o campo "Email" com "Email@email.com"
+        Quando eu clico no botão "Criar"
+        Então eu vejo a mensagem "Chamado criado com sucesso" e sou direcionado para a página de visualização do chamado criado
+        

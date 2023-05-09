@@ -9,11 +9,11 @@
     "elements": [
       {
         "id": "login-and-register-attendance;acessa-site-e-valida-conteúdo-carregado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 6,
         "name": "Acessa site e valida conteúdo carregado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -33,18 +33,18 @@
             "result": {
               "status": "failed",
               "duration": 5717000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Portal de Serviço - Portal de Serviço' to include 'Sign In'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:16:24)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:9:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'Portal de Serviço - Portal de Serviço' to include 'Sign In'\n    at servicePortal_Pages.verifyPageTitle (cypress/pages/ServicePortal_Page.js:16:24)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:9:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           }
         ]
       },
       {
         "id": "login-and-register-attendance;usuário-insere-credenciais-de-login-corretos",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 9,
         "name": "usuário insere credenciais de login corretos",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -63,7 +63,7 @@
             "name": "usuário insere login e senha e clica em Sign In",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#userNameInput`, but never found it.\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:24:9)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:13:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#userNameInput`, but never found it.\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:24:9)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:13:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -79,11 +79,11 @@
       },
       {
         "id": "login-and-register-attendance;usuário-abre-formulário-de-serviços-de-rh-e-registra-atendimento-(admissão-compass)",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 13,
         "name": "usuário abre formulário de serviços de RH e registra atendimento (Admissão Compass)",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -102,7 +102,7 @@
             "name": "usuário clica em Serviços de RH, preenche todos os campos e clica em enviar",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#hr_services > .iconlink > :nth-child(2) > .col-xs-12 > .cardTittle > .ng-binding`, but never found it.\n    at servicePortal_Pages.typeFullRegisterAttendance (cypress/pages/ServicePortal_Page.js:32:9)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:21:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#hr_services > .iconlink > :nth-child(2) > .col-xs-12 > .cardTittle > .ng-binding`, but never found it.\n    at servicePortal_Pages.typeFullRegisterAttendance (cypress/pages/ServicePortal_Page.js:32:9)\n    at Context.eval (cypress/e2e/step_definitions/login and register HR attendance.js:21:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {

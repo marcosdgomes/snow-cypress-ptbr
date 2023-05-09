@@ -9,11 +9,11 @@
     "elements": [
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;acessa-site-e-valida-conteúdo-carregado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 6,
         "name": "Acessa site e valida conteúdo carregado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -23,7 +23,7 @@
             "result": {
               "status": "failed",
               "duration": 190000000,
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -39,11 +39,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-insere-credenciais-de-login-corretos",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 9,
         "name": "usuário insere credenciais de login corretos",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -52,7 +52,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -77,11 +77,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-formulário-de-serviços-de-rh-e-registra-atendimento-(admissão-compass)",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 13,
         "name": "usuário abre formulário de serviços de RH e registra atendimento (Admissão Compass)",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -90,7 +90,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -115,11 +115,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-formulário-de-serviços-de-rh-e-abre-chamado-rápido",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 17,
         "name": "usuário abre formulário de serviços de RH e abre chamado rápido",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -128,7 +128,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -153,11 +153,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 81,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -166,7 +166,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -191,11 +191,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 82,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -204,7 +204,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -229,11 +229,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 83,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -242,7 +242,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -267,11 +267,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 84,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -280,7 +280,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -305,11 +305,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 85,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -318,7 +318,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -343,11 +343,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 86,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -356,7 +356,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -381,11 +381,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-visita-página-inicial-e-clica-em-plataforma-do-'acesso-rápido'",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 87,
         "name": "usuário visita página inicial e clica em plataforma do 'Acesso Rápido'",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -394,7 +394,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -419,11 +419,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-clica-no-botão-'serviços-de-rh'-e-acessa-outros-sistemas",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 34,
         "name": "usuário clica no botão 'Serviços de RH' e acessa outros sistemas",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -432,7 +432,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -522,11 +522,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;tentar-realizar-login-com-informações-incorretas",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 56,
         "name": "Tentar realizar login com informações incorretas",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -535,7 +535,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -569,11 +569,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 64,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -582,7 +582,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -607,11 +607,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 65,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -620,7 +620,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -645,11 +645,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 66,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -658,7 +658,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -683,11 +683,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 67,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -696,7 +696,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -721,11 +721,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 68,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -734,7 +734,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -759,11 +759,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 69,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -772,7 +772,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -797,11 +797,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 70,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -810,7 +810,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -835,11 +835,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 71,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -848,7 +848,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -873,11 +873,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 72,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -886,7 +886,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -911,11 +911,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;usuário-abre-'meus-chamados'-e-realiza-filtragem-por-status",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 73,
         "name": "usuário abre 'Meus chamados' e realiza filtragem por status",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -924,7 +924,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -949,11 +949,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;cria-chamado-simples-e-classificado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 93,
         "name": "cria chamado simples e classificado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -962,7 +962,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -978,11 +978,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;cria-chamado-simples-e-classificado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 94,
         "name": "cria chamado simples e classificado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -991,7 +991,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {
@@ -1007,11 +1007,11 @@
       },
       {
         "id": "realiza-login-e-cria-chamados-de-serviços-de-rh;cria-chamado-simples-e-classificado",
-        "keyword": "Scenario",
+        "keyword": "Cenário",
         "line": 95,
         "name": "cria chamado simples e classificado",
         "tags": [],
-        "type": "scenario",
+        "type": "Cenário",
         "steps": [
           {
             "arguments": [],
@@ -1020,7 +1020,7 @@
             "name": "usuário visita a página inicial e realiza login",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "CypressError: `cy.session()` requires enabling the `experimentalSessionAndOrigin` flag.\n    at throwIfNoSessionSupport (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144939:76)\n    at Context.session (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:144974:7)\n    at wrapped (https://raizentest.service-now.com/__cypress/runner/cypress_runner.js:157849:43)\nFrom Your Spec Code:\n    at servicePortal_Pages.typeLogin (cypress/pages/ServicePortal_Page.js:26:9)\n    at Context.eval (cypress/e2e/step_definitions/realiza login e cria chamados de servicos de rh.js:6:24)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromCenário.js:27:0)"
             }
           },
           {

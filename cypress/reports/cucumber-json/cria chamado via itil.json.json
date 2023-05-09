@@ -1,0 +1,103 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Cria chamado com o tipo de serviço desejado via portal de administração",
+    "line": 2,
+    "id": "cria-chamado-com-o-tipo-de-serviço-desejado-via-portal-de-administração",
+    "tags": [],
+    "uri": "cria chamado via itil.feature",
+    "elements": [
+      {
+        "id": "cria-chamado-com-o-tipo-de-serviço-desejado-via-portal-de-administração;cria-chamado-com-o-tipo-de-serviço-desejado-via-portal-de-administração",
+        "keyword": "Cenário",
+        "line": 5,
+        "name": "Cria chamado com o tipo de serviço desejado via portal de administração",
+        "tags": [],
+        "type": "Cenário",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 4,
+            "name": "que usuário visita a página inicial e realiza login",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 6,
+            "name": "que eu estou na página de criação de chamado",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 7,
+            "name": "eu seleciono o tipo de serviço \"Serviço de TI\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "eu preencho o campo \"Título\" com \"Teste de criação de chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "eu preencho o campo \"Descrição\" com \"Teste de criação de chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "eu preencho o campo \"Solicitante\" com \"Teste de criação de chamado\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "eu preencho o campo \"Email\" com \"Email@email.com\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "eu clico no botão \"Criar\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 13,
+            "name": "eu vejo a mensagem \"Chamado criado com sucesso\" e sou direcionado para a página de visualização do chamado criado",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

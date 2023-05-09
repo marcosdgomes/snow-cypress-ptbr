@@ -51,21 +51,18 @@ class servicePortal_Pages {
       .type("{enter}");
     cy.get(elem.ELEMENTS.FORMRHCATEGORY).click();
     cy.get(elem.ELEMENTS.FORMRHCATEGORYSEARCH)
-      .click()
+      .click({force:true})
       .type(category)
-      .wait(800)
-      .type("{enter}");
-    cy.get(elem.ELEMENTS.FORMRHSUBCATEGORY).click();
-    cy.get(elem.ELEMENTS.FORMRHSUBCATEGORYSEARCH)
+    cy.contains('.select2-result-label', category) // seletor do elemento de resultados dos campos list default
       .click()
+      .focused().tab()
       .type(subcategory)
-      .wait(800)
-      .type("{enter}");
-    cy.get(elem.ELEMENTS.FORMRHPRODUCTIONUNIT).click();
-    cy.get(elem.ELEMENTS.FORMRHPRODUCTIONUNITSEARCH)
+    cy.contains('.select2-result-label', subcategory) // seletor do elemento de resultados dos campos list default
+      .click()
+      .focused().tab()
       .type(productionunit)
-      .wait(800)
-      .type("{enter}");
+    cy.contains('.select2-result-label', productionunit) // seletor do elemento de resultados dos campos list default
+      .click()
     cy.get(elem.ELEMENTS.FORMRHASSUNTO).click().type("Teste de automação");
     cy.get(elem.ELEMENTS.FORMRHDESCRICAO).click().type(elem.ELEMENTS.LOREMDESCRIPTION);
   }

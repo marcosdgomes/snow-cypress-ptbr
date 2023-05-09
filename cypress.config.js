@@ -7,7 +7,7 @@ projectId: "so9xat",
 		setupNodeEvents(on, config) {
 			return require('./cypress/plugins/index.js')(on, config);
 		},
-		baseUrl: 'https://raizendev.service-now.com',
+		baseUrl: 'https://raizentest.service-now.com',
 		specPattern: 'cypress/e2e/*/*/*.feature',
 		viewportWidth: 1366,
 		viewportHeight: 768,

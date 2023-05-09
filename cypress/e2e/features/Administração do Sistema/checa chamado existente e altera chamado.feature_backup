@@ -1,0 +1,9 @@
+#language: pt
+Funcionalidade: Checa chamado existente e altera chamados existentes via portal de administração
+  Como um usuário do sistema
+  Eu quero checar se um chamado existe e alterar chamados existentes
+  Para que eu possa checar se um chamado existe e alterar chamados existentes
+
+  Cenário: Checar se um chamado existe
+    Dado que eu estou na página de administração
+    E eu estou na aba de chamados

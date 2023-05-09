@@ -1,0 +1,41 @@
+[
+  {
+    "description": "  Como um usuário do sistema\n  Eu quero checar se um chamado existe e alterar chamados existentes\n  Para que eu possa checar se um chamado existe e alterar chamados existentes",
+    "keyword": "Funcionalidade",
+    "name": "Checa chamado existente e altera chamados existentes via portal de administração",
+    "line": 2,
+    "id": "checa-chamado-existente-e-altera-chamados-existentes-via-portal-de-administração",
+    "tags": [],
+    "uri": "checa chamado existente e altera chamado.feature",
+    "elements": [
+      {
+        "id": "checa-chamado-existente-e-altera-chamados-existentes-via-portal-de-administração;checar-se-um-chamado-existe",
+        "keyword": "Cenário",
+        "line": 7,
+        "name": "Checar se um chamado existe",
+        "tags": [],
+        "type": "Cenário",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu estou na página de administração",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "eu estou na aba de chamados",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

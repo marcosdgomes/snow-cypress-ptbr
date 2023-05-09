@@ -14,11 +14,9 @@ Funcionalidade: Realiza login e cria chamados de serviços de rh
         Então deve ser exibida página de 'Acompanhamento do Chamado'
     Exemplos:
         | categoria | subcategoria | unidadeprodutora |
-        | Admissão | Admissão Compass | Barra Filial CSC |
+        | Admissão | Admissão Compass | BARRA FILIAL CSC |
         | Admissão | Admissão Compass | COSAN MATRIZ |
         | Adm. Pessoal | Suspensão / Advertência | Comgás |
-        | Adm. Pessoal - Folha de Pagamento | Dúvidas - Folha de Pagamento | Compass |
-        | Benefícios | Alteração de Benefícios | Raízen Rio de Janeiro |
         | Adm. Pessoal - Rescisão | Solicitação de Desligamento | RUMO |
         | Adm. Pessoal - Cadastro | Solicitação de Atualização de Cadastro |  Moove Global |
         | Adm. Pessoal - Ponto | Justificativa de ausências - Atestados / Declarações / Maternidade | COMBUSTÍVEIS |
@@ -39,7 +37,7 @@ Funcionalidade: Realiza login e cria chamados de serviços de rh
         | Treinamento | https://raizen.csod.com/ui/lms-learner-home/home?tab_page_id=-200300006&tab_id=-2 |
         | Workflow RH | https://workflowrh.raizen.com/ |
         | Gestão de Desempenho | https://ciclogestaogente.raizen.com/ |
-        | Portal do Gestor | https://portalrh.minhati.com.br/Desligamento/Erro/AcessoNegado |
+        | Portal do Gestor | https://portalrh.minhati.com.br/Desligamento/Home/Default |
         | Informe de Rendimentos | http://informerendimentos.raizen.com/Pages/Login.aspx |
         | Controle de Ponto | http://intranet2.raizen.com/PortalRH/PontoPorExcecao/default.aspx |
         | Estrutura Organizacional | https://portalrh.minhati.com.br/estruturaorganizacional/ |        
